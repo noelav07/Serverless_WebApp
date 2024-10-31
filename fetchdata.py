@@ -3,10 +3,11 @@ import boto3
 
 def lambda_handler(event, context):
     # Initialize a DynamoDB resource object for the specified region
-    dynamodb = boto3.resource('dynamodb', region_name='us-east-2')
+    dynamodb = boto3.resource('dynamodb', region_name='ap-south-1')
 
-    # Select the DynamoDB table named 'studentData'
-    table = dynamodb.Table('studentData')
+    # Select the DynamoDB table named 'Student_Database'
+
+    table = dynamodb.Table('Student_Database')
 
     # Scan the table to retrieve all items
     response = table.scan()
