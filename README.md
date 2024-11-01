@@ -62,6 +62,10 @@ CloudFront serves the S3-hosted content over HTTPS, ensuring secure access for e
 
 ![CloudFront Distribution](./res/cloudfront.png) 
 
+![CloudFront Content](./res/cloudfront_content.png) 
+
+
+
 ---
 
 ## Setup Instructions
