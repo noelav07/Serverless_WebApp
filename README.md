@@ -15,7 +15,7 @@ The architecture consists of the following services:
 
 Below is a high-level diagram of the architecture.
 
-![Architecture Diagram](./res/serverless_webapp.gif) 
+![Architecture Diagram](./res/serverless_web.svg) 
 
 ---
 
